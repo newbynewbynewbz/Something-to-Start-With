@@ -1,0 +1,32 @@
+# Environment and secrets
+.env
+.env.local
+.env.*
+*.env
+
+# Local Claude settings (may contain tokens)
+.claude/settings.local.json
+
+# Node modules
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.idea/
+.vscode/settings.json
+
+# Database files (for exercises)
+*.db
+*.sqlite
+data/*.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Build output
+dist/
+build/
